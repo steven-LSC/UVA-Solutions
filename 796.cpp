@@ -1,3 +1,4 @@
+//計算橋的數量和輸出橋
 #include<iostream>
 #include<cstdio>
 #include<stdio.h>
