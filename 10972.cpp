@@ -1,3 +1,4 @@
+//孤立的點+縮點後沒有橋的點+ceil(有橋的點/2.0)
 #include<iostream>
 #include<map>
 #include<algorithm>
