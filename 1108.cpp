@@ -1,5 +1,5 @@
-//沒有cutpoint:component.size() * (component.size() - 1) / 2
-//一個cutpoint:component.size()
+//沒有cutpoint:component.size() * (component.size() - 1) / 2 && 放兩個隧道
+//一個cutpoint:component.size() && 放一個隧道
 //2個以上不用放
 #include<iostream>
 #include<algorithm>
