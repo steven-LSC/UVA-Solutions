@@ -1,3 +1,4 @@
+//SCC模板
 #include<iostream>
 #include<algorithm>
 #include<string>
