@@ -1,3 +1,4 @@
+//計算cutpoint數量
 #include<iostream>
 #include<vector>
 #include<string>
