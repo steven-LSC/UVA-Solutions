@@ -1,3 +1,4 @@
+//SCC 如果整個是一個component 那就輸出1 其他輸出0
 #include<iostream>
 #include<vector>
 #include<map>
