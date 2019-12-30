@@ -1,3 +1,4 @@
+//SCC縮點後，沒有inedge的就是要推的。
 #include<iostream>
 #include<algorithm>
 #include<vector>
