@@ -1,3 +1,4 @@
+//基本的topological sort
 #include<iostream>
 #include<map>
 #include<list>
