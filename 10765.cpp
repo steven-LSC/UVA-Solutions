@@ -1,3 +1,4 @@
+//求每個點屬於幾個strongly connected component
 #include<iostream>
 #include<vector>
 #include<string>
