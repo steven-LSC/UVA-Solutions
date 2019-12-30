@@ -24,7 +24,7 @@ bool backtracking(int length)
 
 	for (map<char, int>::iterator it = situation.begin(); it != situation.end(); it++) {
 		if (it->second == 0) {
-			//³]©w
+			
 			ans.push_back(it->first);   
 			--it->second;         
 			for (multimap<char, char>::iterator nxt = graph.lower_bound(it->first); nxt != graph.upper_bound(it->first); nxt++) {
@@ -34,7 +34,7 @@ bool backtracking(int length)
 			//recursive
 			hasAns = backtracking(length + 1);
 
-			//´_­ì
+			
 			ans.pop_back();
 			++it->second;
 			for (multimap<char, char>::iterator nxt = graph.lower_bound(it->first); nxt != graph.upper_bound(it->first); nxt++) {
