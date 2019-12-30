@@ -1,3 +1,4 @@
+//ä¸€æ¬¡å…©è¡Œåˆ¤æ–·ï¼Œæ‰¾å‡ºèª°<èª°ï¼Œtopological sort
 #include <iostream>
 #include <map>
 #include <string>
@@ -24,7 +25,7 @@ int main()
 	string a, b;
 	while (cin >> a) {
 		multimap<char, char> graph;
-		map<char, int> situation; //1´N¬O¦³³o­ÓÂI 2´N¬O¨«¹L 
+		map<char, int> situation; //1Â´NÂ¬OÂ¦Â³Â³oÂ­Ã“Ã‚I 2Â´NÂ¬OÂ¨Â«Â¹L 
 		stack<char> ans;
 		for (char i = 'A'; i <= 'Z'; i++) {
 			situation[i] = 0;
