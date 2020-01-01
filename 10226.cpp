@@ -1,3 +1,4 @@
+//注意使用setprecision(4) include<iomanip>
 #include<iostream>
 #include<iomanip>
 #include<map>
