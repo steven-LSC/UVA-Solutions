@@ -1,3 +1,4 @@
+//希望有多個堆疊，去承載到對岸並且會由小到大。
 #include<iostream>
 #include<stack>
 #include<string>
